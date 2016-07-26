@@ -1,4 +1,30 @@
-
+//Фильтры: Преобразования Лапласа, Собеля (картинка 255х255)
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<script type="text/javascript" src="preobr.js"></script>
+</head>
+<body>
+<tittle>Photo</tittle>
+<div>
+	<input type="image" src="123.png">
+	<div>
+	<input type="button" id="111" onclick="GO()" value="GO">
+	</div>
+	<div>
+	<canvas id="canvas" src="123.png" width="301px" height="301px"></canvas>
+	<canvas id="canvas2" src="123.png" width="301px" height="301px"></canvas>
+	<canvas id="canvas3" src="123.png" width="301px" height="301px"></canvas>
+	<canvas id="canvas4" src="123.png" width="301px" height="301px"></canvas>
+</div>
+</div>
+</div>
+<div>
+</div>
+</body>
+</html>
+///////SCRYPT///////////////
 function GO(){
 var PowPR = function(imageData){//Степенное преобразование
 var pixels2=imageData.data;
